@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Null Bind cat</title>
+  <desc id="desc">A simple cat face inspired by the ASCII art cat used by Null Bind.</desc>
+
+  <!-- A pale fill keeps the icon readable on both light and dark backgrounds. -->
+  <path
+    d="M104 206 128 72l102 78a214 214 0 0 1 52 0l102-78 24 134
+       c18 30 28 66 28 104 0 92-81 154-180 154S76 402 76 310c0-38 10-74 28-104Z"
+    fill="#f7f7f5"
+    stroke="#171717"
+    stroke-width="24"
+    stroke-linejoin="round"/>
+
+  <!-- Inner ears -->
+  <path d="m135 126-10 66 55-42Z M377 126l10 66-55-42Z" fill="#f28ca8"/>
+
+  <!-- Eyes -->
+  <ellipse cx="190" cy="278" rx="19" ry="25" fill="#171717"/>
+  <ellipse cx="322" cy="278" rx="19" ry="25" fill="#171717"/>
+
+  <!-- Nose and the ASCII-art-inspired ^ mouth -->
+  <path d="m256 322-14-12h28Z" fill="#f28ca8" stroke="#171717" stroke-width="7" stroke-linejoin="round"/>
+  <path d="m212 374 44-40 44 40" fill="none" stroke="#171717" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Whiskers echo the > and < marks in the original. -->
+  <path
+    d="m184 333-104-26m104 54L72 365m256-32 104-26m-104 54 112 4"
+    fill="none"
+    stroke="#171717"
+    stroke-width="13"
+    stroke-linecap="round"/>
+</svg>
