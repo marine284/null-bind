@@ -1,0 +1,16 @@
+#define IDI_NULL_BIND 101
+
+IDI_NULL_BIND ICON "null_bind.ico"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileVersion", "1.0.0.0\0"
+            VALUE "ProductName", "null_bind\0"
+        END
+    END
+END
